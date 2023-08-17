@@ -1,0 +1,106 @@
+{
+  "paints": [
+    {
+      "id": 1,
+      "paint": "Silver",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "paint": "Midnight Blue",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "paint": "Firebrick Red",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "paint": "Spring Green",
+      "price": 400
+    }
+  ],
+  "interiors": [
+    {
+      "id": 1,
+      "interior": "Beige Fabric",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "interior": "Charcoal Fabric",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "interior": "White Leather",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "interior": "Black Leather",
+      "price": 300
+    }
+  ],
+  "wheels": [
+    {
+      "id": 1,
+      "wheel": "17-inch Pair Radial",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "wheel": "17-inch Pair Radial Black",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "wheel": "18-inch Pair Spoke Silver",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "wheel": "18-inch Pair Spoke Black",
+      "price": 300
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "technology": "Basic Package (basic sound system)",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "technology": "Navigation Package ( includes integrated navigation controls)",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "technology": "Visibility Package ( includes side and rear cameras)",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "technology": "Ultra Package (includes the navigation and visibility packages)",
+      "price": 300
+    }
+  ],
+  "customOrders": [
+    {
+      "wheelId": 0,
+      "paintId": 0,
+      "interiorId": 0,
+      "technologyId": 0,
+      "id": 1
+    },
+    {
+      "wheelId": 0,
+      "paintId": 0,
+      "interiorId": 0,
+      "technologyId": 0,
+      "id": 2
+    }
+  ]
+}

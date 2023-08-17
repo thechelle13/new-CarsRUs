@@ -1,0 +1,39 @@
+.options {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dashed dodgerblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.title {
+    text-align: center;
+
+}
+
+.orderButton {
+    text-align: center;
+    margin: 2rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: dodgerblue;
+    color: black;
+    font-size: 1rem;
+}
+
+.customOrders {
+    text-align: center;
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: Black;
+    font-size: 1rem;
+}
