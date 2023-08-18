@@ -2,7 +2,7 @@ import { setPaintId} from "./transientState.js"
 
 
 const handlePaintChange = (changeEvent) => {
-    if (changeEvent.target.name === "paint") {
+    if (changeEvent.target.id === "paint") {
         const convertedToInteger = parseInt(changeEvent.target.value)
         setPaintId(convertedToInteger)
     }
@@ -20,7 +20,7 @@ export const PaintOptions = async () => {
         (paint) => {
            
           return `<div>
-              <option type='radio' name='paint' value='${paint.id}' /> ${paint.paint}
+              <option id='paint' value='${paint.id}' /> ${paint.paint}
           </div>`
         }
     )

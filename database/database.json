@@ -89,17 +89,17 @@
   ],
   "customOrders": [
     {
-      "wheelId": 0,
-      "paintId": 0,
-      "interiorId": 0,
-      "technologyId": 0,
+      "wheelId": 3,
+      "paintId": 3,
+      "interiorId": 3,
+      "technologyId": 3,
       "id": 1
     },
     {
-      "wheelId": 0,
-      "paintId": 0,
-      "interiorId": 0,
-      "technologyId": 0,
+      "wheelId": 3,
+      "paintId": 2,
+      "interiorId": 4,
+      "technologyId": 4,
       "id": 2
     }
   ]

@@ -1,7 +1,9 @@
 import { setTechnologyId } from "./transientState.js"
 
+
+
 const handleTechChange = (changeEvent) => {
-    if (changeEvent.target.name === "technology") {
+    if (changeEvent.target.id === "technology") {
         const convertedToInteger = parseInt(changeEvent.target.value)
         setTechnologyId(convertedToInteger)
     }
@@ -18,7 +20,7 @@ export const TechOptions = async () => {
     const divStringArray = technologies.map(
         (technology) => {
           return `<div>
-              <option type='radio' name='technology' value='${technology.id}' /> ${technology.technology}
+              <option id='technology' value='${technology.id}' /> ${technology.technology}
           </div>`
         }
     )

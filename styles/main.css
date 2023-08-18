@@ -3,12 +3,7 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body {
-    background-color: aquamarine;
-}
-
-
-
+body, 
 button,
 input,
 select,
@@ -28,3 +23,4 @@ ul {
     list-style-type: none;
     padding-inline-start: 0.25rem;
 }
+

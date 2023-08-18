@@ -1,7 +1,8 @@
 import { setInteriorId } from "./transientState.js"
 
+
 const handleInteriorChange = (changeEvent) => {
-    if (changeEvent.target.name === "interior") {
+    if (changeEvent.target.id === "interior") {
         const convertedToInteger = parseInt(changeEvent.target.value)
         setInteriorId(convertedToInteger)
     }
@@ -17,7 +18,7 @@ export const InteriorOptions = async () => {
     const divStringArray = interiors.map(
         (interior) => {
           return `<div>
-              <option type='radio' name='interior' value='${interior.id}' /> ${interior.interior}
+              <option id='interior' value='${interior.id}' /> ${interior.interior}
           </div>`
         }
     )

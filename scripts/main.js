@@ -16,9 +16,9 @@ const render = async () => {
     const newOrdersHTML = await SaveOrder()
 
     const container = document.querySelector("#container")
-    
+
     const composedHTML = `
-        <h1 class="title">Cars R Us</h1>
+        <h1 class="title">Cars 'R Us</h1>
 
         <article class="choices">
             <section class="choices__wheels options">
@@ -42,7 +42,6 @@ const render = async () => {
             </section>
         </article>
 
-
         <article class="orderButton">
                ${newOrdersHTML}
         </article>
@@ -56,6 +55,6 @@ const render = async () => {
     container.innerHTML = composedHTML
    
 }
-
+// listen for stateChange here
 document.addEventListener("newOrderCreated", render)
 render ()
